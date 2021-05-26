@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+		<title>Lee y deduce</title>
+
+		<link rel="stylesheet" href="css/estilos.css" />
+		<link rel="stylesheet" href="css/font-awesome.css" />
+
+		<script src="js/jquery-3.2.1.js"></script>
+	</head>
+	<body>
+		<section class="form_wrap">
+			<section class="cantact_info">
+				<section class="info_title">
+					<!--<span class="fa fa-user-circle"></span>-->
+					<h2>Lee y deduce<br /></h2>
+				</section>
+				<section class="info_items">
+					<!-- </span>Describe los cinco avances tecnológicos actuales que te resulten más sorprendentes.</p>-->
+					<!--<p><span class="fa fa-mobile"></span> +1(585) 902-8665</p>-->
+				</section>
+			</section>
+
+			<form name="form1" method="POST" action="GeneraPDF.php" class="form_contact">
+				<div class="user_info">
+					<h4 for="names">Alumno:</h4>
+					<input type="text" id="alumno" class="estiloEncabezado" name="alumno" />
+
+					<h4 for="phone">Grado:</h4>
+					<input type="text" id="grado" class="estiloEncabezado" name="grado" />
+
+					<h4 for="email">Grupo</h4>
+					<input type="text" id="grupo" class="estiloEncabezado" name="grupo" />
+
+					<h4 for="email">Profesor:</h4>
+					<input type="text" id="profesor" class="estiloEncabezado" name="profesor" />
+
+					<h2>Ahorro de papel, trabajo y vergüenza</h2>
+
+					<h5>
+						&nbsp;&nbsp;&nbsp;&nbsp;Imagina que al terminar de mecanografiar un trabajo
+						escolar que incluye texto e imágenes, te das cuenta de que tiene algunos errores
+						ortográficos, o que dejaste en un lugar equivocado el espacio para pegar una
+						ilustración o monografía. ¿Qué harías? La presentación del trabajo dejaría mucho
+						que desear; por lo que es probable que decidas repetirlo en una nueva hoja de
+						papel. <br /><br />&nbsp;&nbsp;&nbsp;&nbsp;Por fortuna, actualmente se cuenta con
+						los Procesadores de textos, que te permiten corregir los errores de manera rápida
+						y sencilla, y entregar tus trabajos pulcros y ordenados; además, tienes la
+						posibilidad de elegir el tipo, tamaño, estilo y color de letra de tu preferencia,
+						insertar títulos artísticos, imágenes o tablas. En síntesis, te ofrecen numerosos
+						recursos para presentar tus trabajos con gusto y calidad profesional, lo que se
+						refleja en mejores calificaciones.
+					</h5>
+					<br />
+					<h3>
+						1. Junto con tus compañeros investiguen los nombres de dos accesorios de Windows
+						con los que se pueden realizar trabajos escritos en la computadora.
+					</h3>
+					<input type="text" id="pregunta1a" class="estiloEncabezado" name="pregunta1a" />
+					<input type="text" id="pregunta1b" class="estiloEncabezado" name="pregunta1b" />
+					<h3>
+						2. Inicia una sesión con el accesorio bloc de notas y escribe tu nombre en el
+						primer renglón.
+					</h3>
+					<br />
+					<h3>
+						3. Para identificar los datos abre el menú Formato y selecciona el comando Fuente.
+						Observa el cuadro de diálogo Fuente y responde:
+					</h3>
+					<br />
+					<table class="tblImagenes">
+						<tr>
+							<td>a) ¿Qué nombre tiene la fuente o tipo de letra?</td>
+							<td>
+								<input
+									type="text"
+									id="txtOperaciona"
+									class="estilo2"
+									name="txtOperaciona"
+								/>
+							</td>
+						</tr>
+						<tr>
+							<td>b) ¿Cuál es el estilo de fuente?</td>
+							<td>
+								<input
+									type="text"
+									id="txtOperacionb"
+									class="estilo2"
+									name="txtOperacionb"
+								/>
+							</td>
+						</tr>
+						<tr>
+							<td>c) ¿Cuál es el tamaño de la letra?</td>
+							<td>
+								<input
+									type="text"
+									id="txtOperacionc"
+									class="estilo2"
+									name="txtOperacionc"
+								/>
+							</td>
+						</tr>
+						<tr>
+							<td>d) ¿Se puede cambiar el tipo de letra?</td>
+							<td>
+								<label>
+									<input
+										type="radio"
+										class="radPregunta2"
+										name="txtOperaciond"
+										required
+										value="Si"
+									/>
+									Sí
+								</label>
+								&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+								<label>
+									<input
+										type="radio"
+										class="radPregunta2"
+										name="txtOperaciond"
+										required
+										value="No"
+									/>
+									No
+								</label>
+							</td>
+						</tr>
+						<tr>
+							<td>e) ¿Se puede cambiar el tamaño de letra?</td>
+							<td>
+								<label>
+									<input
+										type="radio"
+										class="radPregunta2"
+										name="txtOperacione"
+										required
+										value="Si"
+									/>
+									Sí
+								</label>
+								&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+								<label>
+									<input
+										type="radio"
+										class="radPregunta2"
+										name="txtOperacione"
+										required
+										value="No"
+									/>
+									No
+								</label>
+							</td>
+						</tr>
+					</table>
+					<br /><br />
+
+					<br /><br />
+
+					<input type="submit" value="Guardar actividad" />
+				</div>
+			</form>
+		</section>
+		<script src="js/script.js"></script>
+	</body>
+</html>
